@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                         DESC
 
   s.homepage         = 'https://github.com/sagaya/PinView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/sagaya/BottomDrawer/raw/master/screenshot.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sagaya' => 'shaggy.hafeez@gmail.com' }
   s.source           = { :git => 'https://github.com/sagaya/PinView.git', :tag => s.version.to_s }

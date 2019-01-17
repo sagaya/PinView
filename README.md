@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/PinView.svg?style=flat)](https://cocoapods.org/pods/PinView)
 [![Platform](https://img.shields.io/cocoapods/p/PinView.svg?style=flat)](https://cocoapods.org/pods/PinView)
 
+![](screenshot.gif)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
