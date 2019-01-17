@@ -46,6 +46,7 @@ class ViewController: UIViewController, PinInputDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(inputV)
+        
         view.addSubview(inputV2)
         view.addSubview(inputV3)
         inputV.anchorTo(top: view.topAnchor, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, padding: .init(top: 140, left: 80, bottom: 0, right: 80), size: .init(width: view.frame.width, height: 50))
