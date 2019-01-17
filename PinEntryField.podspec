@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PinEntryField'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A PIN view library for iOS. Use to enter PIN/OTP/password etc.'
   s.swift_version = '4.0'
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
                         DESC
 
   s.homepage         = 'https://github.com/sagaya/PinView'
-  s.screenshots     = 'https://github.com/sagaya/BottomDrawer/raw/master/screenshot.gif'
+  s.screenshots     = 'https://github.com/sagaya/PinView/raw/master/screenshot.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sagaya' => 'shaggy.hafeez@gmail.com' }
   s.source           = { :git => 'https://github.com/sagaya/PinView.git', :tag => s.version.to_s }
