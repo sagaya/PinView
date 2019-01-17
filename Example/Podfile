@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PinView_Example' do
+  pod 'PinView', :path => '../'
+
+  target 'PinView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
