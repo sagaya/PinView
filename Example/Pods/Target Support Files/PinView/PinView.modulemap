@@ -1,0 +1,6 @@
+framework module PinView {
+  umbrella header "PinView-umbrella.h"
+
+  export *
+  module * { export * }
+}

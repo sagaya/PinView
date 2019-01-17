@@ -1,0 +1,16 @@
+PODS:
+  - PinView (0.1.0)
+
+DEPENDENCIES:
+  - PinView (from `../`)
+
+EXTERNAL SOURCES:
+  PinView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PinView: 70cdb861df7890a8febd9f0c6332e4d8d217cac2
+
+PODFILE CHECKSUM: ba95058e89579ef8cf5bf7b439a2418341496798
+
+COCOAPODS: 1.6.0.beta.2
