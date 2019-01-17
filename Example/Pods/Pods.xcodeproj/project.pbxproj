@@ -12,10 +12,11 @@
 		1D482C2AFE0F97BED64DF4703BB9C0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		53257A8308B1AC024A5C7FE200DD57B3 /* Pods-PinView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C8F1B324CFBF1E78576CED8BFDAFCC /* Pods-PinView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9799B8FB9F1EFA8433231E873D29B28A /* Pods-PinView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB9CAB759514DD39BCE608399B34801 /* Pods-PinView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FAC288021F122B900AE9F92 /* AutoLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC287F21F122B900AE9F92 /* AutoLayout+Extension.swift */; };
 		B9B87E4D40BD2545DE825928EBA7DCD3 /* Pods-PinView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8466AE3B025883013044D2BC3121CE9 /* Pods-PinView_Example-dummy.m */; };
 		C149ADCF1756BF27D06F63C2A1988978 /* Pods-PinView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B51A23EC039EF7BF126B7FE72012A5 /* Pods-PinView_Tests-dummy.m */; };
 		D689ABB580A7C36FEF0D2E734A81F2A7 /* PinView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3958AEF03F28CBCBF62E4549AC214A63 /* PinView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC34AA596A608B2E247D4AACDFDDE88D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F7414F57C4C498458711C416CD1A5A /* ReplaceMe.swift */; };
+		DC34AA596A608B2E247D4AACDFDDE88D /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F7414F57C4C498458711C416CD1A5A /* PinView.swift */; };
 		FB5732A54EC7D068D7138EFC3FE8AAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,32 +41,33 @@
 		0166B09E2958522A8FD40891E3B85C0F /* Pods-PinView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		05690ADF6F917673AFB1C7CCF8B7AC60 /* PinView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinView.modulemap; sourceTree = "<group>"; };
 		0EDDD7A27A6F00AFCF67B5418E3CB8DB /* PinView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinView-dummy.m"; sourceTree = "<group>"; };
-		1250B3D70BA5A0A00E3747F87CE1D623 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1250B3D70BA5A0A00E3747F87CE1D623 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2ACA42F43468CE7E49DDC6CB3ACE5A47 /* PinView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinView-prefix.pch"; sourceTree = "<group>"; };
 		2C489DE671D2FC67B4D619E077B83927 /* Pods-PinView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32F7414F57C4C498458711C416CD1A5A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PinView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		32F7414F57C4C498458711C416CD1A5A /* PinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinView.swift; path = PinView/Classes/PinView.swift; sourceTree = "<group>"; };
 		3958AEF03F28CBCBF62E4549AC214A63 /* PinView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinView-umbrella.h"; sourceTree = "<group>"; };
-		4711DA829E674329B0FAB50C767853FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4711DA829E674329B0FAB50C767853FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		591FFB4D8CB38FE9FEBE7DB975F91CD1 /* Pods-PinView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C5C01F2A555D2CB5AE9509461BF685F /* Pods-PinView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinView_Tests-Info.plist"; sourceTree = "<group>"; };
 		6D0F801006D483AA282B0167632CF3F4 /* Pods-PinView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		869B0427553EBDD61F42B1CE04F4E3DC /* Pods_PinView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinView_Example.framework; path = "Pods-PinView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		869B0427553EBDD61F42B1CE04F4E3DC /* Pods_PinView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		919679448BAB4E5B849C8F0A1DED0AA2 /* Pods-PinView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B1B9591CF48835692891852364B618C /* Pods-PinView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9FAC287F21F122B900AE9F92 /* AutoLayout+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AutoLayout+Extension.swift"; path = "PinView/Classes/AutoLayout+Extension.swift"; sourceTree = "<group>"; };
 		B33915501F262FA19B7618A84B46925E /* Pods-PinView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinView_Example-Info.plist"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA1E19B7FA3CD265FCDC73AAB525D385 /* PinView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PinView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA1E19B7FA3CD265FCDC73AAB525D385 /* PinView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PinView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD13B1E352D8B89010D4DA025CAF09DA /* Pods-PinView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFAA112A6A0869C530334B3C31656F54 /* Pods-PinView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinView_Tests.modulemap"; sourceTree = "<group>"; };
 		C34F788D0B72183C66C5A3330E491403 /* PinView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinView-Info.plist"; sourceTree = "<group>"; };
-		C73134C4B8825C703F2E575071019A41 /* Pods_PinView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinView_Tests.framework; path = "Pods-PinView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73134C4B8825C703F2E575071019A41 /* Pods_PinView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5F31FE7DCC6889CE16FABBAFBCEE5E /* Pods-PinView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D8466AE3B025883013044D2BC3121CE9 /* Pods-PinView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinView_Example-dummy.m"; sourceTree = "<group>"; };
 		F0C8F1B324CFBF1E78576CED8BFDAFCC /* Pods-PinView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F7B51A23EC039EF7BF126B7FE72012A5 /* Pods-PinView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinView_Tests-dummy.m"; sourceTree = "<group>"; };
 		FAA4C0795734565D1C42CBF179AA27BE /* PinView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinView.xcconfig; sourceTree = "<group>"; };
-		FCE6F9A31FF8E9E6F3BF5D5517C6BBBB /* PinView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinView.framework; path = PinView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE6F9A31FF8E9E6F3BF5D5517C6BBBB /* PinView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9EDA9EF126B559473B53329EAB34C9 /* Pods-PinView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinView_Example.modulemap"; sourceTree = "<group>"; };
 		FDB9CAB759514DD39BCE608399B34801 /* Pods-PinView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinView_Example-umbrella.h"; sourceTree = "<group>"; };
 		FE34EFFD52AB1BA96C44ED528C0775A7 /* Pods-PinView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -102,7 +104,8 @@
 		138ADB07A8828C8846A30F1C173A0964 /* PinView */ = {
 			isa = PBXGroup;
 			children = (
-				32F7414F57C4C498458711C416CD1A5A /* ReplaceMe.swift */,
+				9FAC287F21F122B900AE9F92 /* AutoLayout+Extension.swift */,
+				32F7414F57C4C498458711C416CD1A5A /* PinView.swift */,
 				CFA7397EDC5943241BB7F255872229D5 /* Pod */,
 				49F2EE090E08D370159CAFE99CA5DD4C /* Support Files */,
 			);
@@ -381,7 +384,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DAB0C7B17D92BD38794D0D15C410AF9 /* PinView-dummy.m in Sources */,
-				DC34AA596A608B2E247D4AACDFDDE88D /* ReplaceMe.swift in Sources */,
+				DC34AA596A608B2E247D4AACDFDDE88D /* PinView.swift in Sources */,
+				9FAC288021F122B900AE9F92 /* AutoLayout+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +423,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PinView/PinView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PinView/PinView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PinView/PinView.modulemap";
 				PRODUCT_MODULE_NAME = PinView;
@@ -517,7 +521,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PinView/PinView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PinView/PinView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PinView/PinView.modulemap";
 				PRODUCT_MODULE_NAME = PinView;
@@ -650,8 +654,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
