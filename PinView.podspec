@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PinView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A PIN view library for iOS. Use to enter PIN/OTP/password etc.'
   s.swift_version = '4.0'
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sagaya/PinView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sagaya_hafeez'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'PinView/Classes/**/*'
   
