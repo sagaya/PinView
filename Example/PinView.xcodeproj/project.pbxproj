@@ -31,7 +31,7 @@
 		9DE083A5E57A67420733BC7F /* Pods-PinView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinView_Example.debug.xcconfig"; path = "Target Support Files/Pods-PinView_Example/Pods-PinView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E046F8E9CE92812D378B253D /* Pods_PinView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F269F6229223EC33F2772E38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F52DA4394783F2DFC1E3334C /* PinView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PinView.podspec; path = ../PinView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F52DA4394783F2DFC1E3334C /* PinEntryField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PinEntryField.podspec; path = ../PinEntryField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F52DA4394783F2DFC1E3334C /* PinView.podspec */,
+				F52DA4394783F2DFC1E3334C /* PinEntryField.podspec */,
 				F269F6229223EC33F2772E38 /* README.md */,
 				2B6F2CC78D31019E63278C24 /* LICENSE */,
 			);
