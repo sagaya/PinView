@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PinView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A PIN view library for iOS. Use to enter PIN/OTP/password etc.'
   s.swift_version = '4.0'
 
