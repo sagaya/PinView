@@ -1,9 +1,9 @@
 # PinView
 
-[![CI Status](https://img.shields.io/travis/sagaya/PinView.svg?style=flat)](https://travis-ci.org/sagaya/PinEntryField)
-[![Version](https://img.shields.io/cocoapods/v/PinView.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
-[![License](https://img.shields.io/cocoapods/l/PinView.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
-[![Platform](https://img.shields.io/cocoapods/p/PinView.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
+[![CI Status](https://img.shields.io/travis/sagaya/PinEntryField.svg?style=flat)](https://travis-ci.org/sagaya/PinEntryField)
+[![Version](https://img.shields.io/cocoapods/v/PinEntryField.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
+[![License](https://img.shields.io/cocoapods/l/PinEntryField.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
+[![Platform](https://img.shields.io/cocoapods/p/PinEntryField.svg?style=flat)](https://cocoapods.org/pods/PinEntryField)
 
 ![](screenshot.gif)
 
