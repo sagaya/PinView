@@ -75,7 +75,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 | keyboardType |  Change the type of keyboard (Defaults to numberPad) |
 
 
-### Inspired by [PinView](https://github.com/ChaosLeong/PinView) for Android 
 
 ## Author
 
